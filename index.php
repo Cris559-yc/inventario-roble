@@ -57,7 +57,7 @@ $versionBD = $pdo->query('SELECT VERSION()')->fetchColumn();
 </style>
 </head>
 <body>
-<h1><?= e($empresa) ?> - Sistema de Inventario</h1>
+<h1><?= e($empresa) ?> - Sistema de Inventariov2</h1>
 <div class="caja">
  <h3><?= $editar ? 'Editar producto #' . e($editar['id']) : 'Nuevo producto' ?></h3>
  <form method="post">
